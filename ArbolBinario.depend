@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1504737690 source:c:\users\sanmateo\documents\desarrollo\c++\arbolbinario\main.cpp
+	<iostream>
+	"NodoBinario.h"
+	"ArbolBin.h"
+
+1504739745 c:\users\sanmateo\documents\desarrollo\c++\arbolbinario\nodobinario.h
+	<iostream>
+
+1504741351 c:\users\sanmateo\documents\desarrollo\c++\arbolbinario\arbolbin.h
+	<iostream>
+	<stdlib.h>
+	"NodoBinario.h"
+
+1504724607 source:c:\users\sanmateo\documents\desarrollo\c++\arbolbinario\nodobinario.cpp
+	"NodoBinario.h"
+	<sstream>
+
+1504737079 source:c:\users\sanmateo\documents\desarrollo\c++\arbolbinario\arbolbin.cpp
+	"ArbolBin.h"
+	<stdlib.h>
+
