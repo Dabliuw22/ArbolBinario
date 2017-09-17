@@ -1,5 +1,6 @@
-/obj
-/bin
 ArbolBinario.cbp
 ArbolBinario.depend
 ArbolBinario.layout
+obj/
+
+bin/
