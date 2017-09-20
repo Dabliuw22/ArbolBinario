@@ -39,6 +39,23 @@ void ArbolBin::insertNodo(NodoBinario** root, NodoBinario* child) {
     }
 }
 
+NodoBinario* ArbolBin::insertNodoRecursive(NodoBinario* root, NodoBinario* child) {
+    if(root == NULL) {
+        root = child;
+    } else {
+        if(root -> getValue() < child -> getValue()) {
+            root -> setIzq(insertNodoRecursive(root -> getIzq(), child));
+        } else {
+            if(root -> getValue() > child -> getValue()) {
+                root -> setDer(insertNodoRecursive(root -> getDer(), child));
+            } else {
+                exit(0);
+            }
+        }
+    }
+    return root;
+}
+
 void ArbolBin::preorden(NodoBinario* root) {
     if(root == NULL) {
         return;

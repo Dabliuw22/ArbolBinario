@@ -12,6 +12,7 @@ class ArbolBin{
         ArbolBin(NodoBinario* root);
         virtual ~ArbolBin();
         void insertNodo(NodoBinario** root, NodoBinario* child);
+        NodoBinario* insertNodoRecursive(NodoBinario* root, NodoBinario* child);
         void deleteNodo(string);
         void preorden(NodoBinario* root);
         void inorden(NodoBinario* root);
